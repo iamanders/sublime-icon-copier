@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#Copy Sublime\ Text.icns from script directory
+SCRIPT_PATH=$(dirname `which $0`)
+cp $SCRIPT_PATH/Sublime\ Text.icns /Applications/Sublime\ Text.app/Contents/Resources
+echo "Done!"
